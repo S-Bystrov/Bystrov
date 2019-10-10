@@ -1,5 +1,8 @@
 package homewok_2.Task_7;
-
+/*
+Task 7
+Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99
+ */
 public class OddNumbers {
     public static void main(String[] args) {
         int limit = 100;

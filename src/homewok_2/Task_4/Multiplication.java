@@ -1,5 +1,8 @@
 package homewok_2.Task_4;
-
+/*
+Task 4
+Составьте программу, вычисляющую A*B, не пользуясь операцией умножения.
+ */
 public class Multiplication {
     public static void main(String[] args) {
         int a = 5;

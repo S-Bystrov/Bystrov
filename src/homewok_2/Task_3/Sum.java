@@ -1,5 +1,8 @@
 package homewok_2.Task_3;
-
+/*
+Task 3
+Вычислить: 1+2+4+8+...+256
+ */
 public class Sum {
     public static void main(String[] args) {
         int sum = 1;
