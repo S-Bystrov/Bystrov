@@ -8,9 +8,12 @@ Task 1
 public class Distance {
     public static void main(String[] args) {
         double dist = 10.0;
+        double allDist=dist;
         int days = 7;
         for (int i=1; i < days; i++){
-            dist = dist + dist * 0.1;}
-        System.out.println("Суммарный путь спортсмена за " + days + " дней равен " + dist);
+            dist = dist + dist * 0.1;
+            allDist+=dist;
+        }
+        System.out.println("Суммарный путь спортсмена за " + days + " дней равен " + allDist);
     }
 }
