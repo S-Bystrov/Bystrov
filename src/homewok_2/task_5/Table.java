@@ -11,8 +11,8 @@ public class Table {
         for(int i=1; i<=inch; i++){
             float result = i * cm;
             System.out.println( i + " дюймов равняется " + result + " см");
-
+// пустая строка не нужна
         }
-
+// пустая строка не нужна
     }
 }
