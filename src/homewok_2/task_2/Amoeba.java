@@ -10,6 +10,7 @@ public class Amoeba {
         int hour = 0;
         int totalHours = 24;
         int period = 3;
+//         for (int hour = 0; hour < totalHours; hour += period) { - лучше так
         for (; hour < totalHours; hour += period) {
             amoeb *= 2;
             System.out.println(amoeb);

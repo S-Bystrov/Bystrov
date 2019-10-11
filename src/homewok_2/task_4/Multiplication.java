@@ -5,6 +5,7 @@ Task 4
  */
 public class Multiplication {
     public static void main(String[] args) {
+        // a, b - плохие названия переменных
         int a = 5;
         int b = 10;
         int multiplication = a;
@@ -13,6 +14,6 @@ public class Multiplication {
         }
         System.out.println(" A * B = " + multiplication);
 
-
+// пустая строка не нужна
     }
 }

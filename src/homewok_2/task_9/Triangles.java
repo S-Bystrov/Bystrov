@@ -2,6 +2,7 @@ package homewok_2.task_9;
 
 public class Triangles {
     public static void main(String[] args) {
+//         a - плохое название переменной
         int a=4;
         for(int i=1; i<=a;i++){
             for(int k=1; k<=a; k++){
