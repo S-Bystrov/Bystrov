@@ -1,4 +1,4 @@
-package homewok_2.Task_9;
+package homewok_2.task_9;
 
 public class Triangles {
     public static void main(String[] args) {

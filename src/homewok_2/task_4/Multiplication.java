@@ -1,4 +1,4 @@
-package homewok_2.Task_4;
+package homewok_2.task_4;
 /*
 Task 4
 Составьте программу, вычисляющую A*B, не пользуясь операцией умножения.

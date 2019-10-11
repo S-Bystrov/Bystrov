@@ -1,4 +1,4 @@
-package homewok_2.Task_8;
+package homewok_2.task_8;
 
 /*Даны числа от 0 до 100.
 - Посчитать сумму четных и вывести на экран

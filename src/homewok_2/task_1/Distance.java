@@ -1,4 +1,4 @@
-package homewok_2.Task_1;
+package homewok_2.task_1;
 /*
 Task 1
 Начав тренировки, спортсмен в первый день пробежал 10 км. Каждый

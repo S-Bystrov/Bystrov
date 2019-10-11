@@ -1,4 +1,4 @@
-package homewok_2.Task_3;
+package homewok_2.task_3;
 /*
 Task 3
 Вычислить: 1+2+4+8+...+256

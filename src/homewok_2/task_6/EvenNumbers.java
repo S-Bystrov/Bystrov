@@ -1,4 +1,4 @@
-package homewok_2.Task_6;
+package homewok_2.task_6;
 /*
 Task 6
 Напишите программу вывода всех четных чисел от 2 до 100 включительно

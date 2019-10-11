@@ -1,4 +1,4 @@
-package homewok_2.Task_7;
+package homewok_2.task_7;
 /*
 Task 7
 Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99

@@ -1,4 +1,4 @@
-package homewok_2.Task_2;
+package homewok_2.task_2;
 /*
 Task 2
 Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
