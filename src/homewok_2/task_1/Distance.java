@@ -5,6 +5,8 @@ Task 1
 день он увеличивал дневную норму на 10% нормы предыдущего дня. Какой
 суммарный путь пробежит спортсмен за 7 дней?
  */
+
+// +
 public class Distance {
     public static void main(String[] args) {
         double dist = 10.0;
