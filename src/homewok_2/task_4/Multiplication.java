@@ -6,14 +6,12 @@ Task 4
 public class Multiplication {
     public static void main(String[] args) {
         // a, b - плохие названия переменных
-        int a = 5;
-        int b = 10;
-        int multiplication = a;
-        for (int i = 1; i<b; i++) {
-            multiplication = multiplication + a;
+        int firstNum = 5;
+        int secondNum = 10;
+        int multiplication = firstNum;
+        for (int i = 1; i<secondNum; i++) {
+            multiplication = multiplication + firstNum;
         }
         System.out.println(" A * B = " + multiplication);
-
-// пустая строка не нужна
     }
 }

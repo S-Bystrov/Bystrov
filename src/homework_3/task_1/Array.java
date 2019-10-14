@@ -24,8 +24,8 @@ public class Array {
         System.out.println(Arrays.toString(array));
 
         int sum = 0;
-        for (int i = 0; i <array.length ; i++) {
-            sum = sum + array[i];
+        for (int num: array) {
+            sum = sum + num;
         }
         System.out.println("Сумма всех чисел равна: " + sum);
 
