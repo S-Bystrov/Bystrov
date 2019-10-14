@@ -1,19 +1,24 @@
-package homework_3.task_3;
+package homework_3.task_5;
 
 import java.util.Arrays;
 
-public class Odd {
+public class Inversion {
     public static void main(String[] args) {
+        int tempVar;
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 100);
         }
         System.out.println(Arrays.toString(array));
-        for (int i = 0; i<array.length; i++) {
-            if(array[i]%2!=0){
-                array[i] = 0;
-            }
+
+        int numOfChanges = array.length / 2;
+
+        for (int i = 0; i < numOfChanges; i++) {
+            tempVar = array[i];
+            array[i] = array[array.length - i - 1];
+            array[array.length - i - 1] = tempVar;
         }
         System.out.println(Arrays.toString(array));
     }
+
 }

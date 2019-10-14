@@ -6,26 +6,17 @@ import java.util.Scanner;
 public class Array {
     public static void main(String[] args) {
         int[] array = new int[3];
-        Scanner scOne = new Scanner(System.in);
-        System.out.println("Введите первый элемент массива: ");
-        int iOne = scOne.nextInt();
-
-        Scanner scTwo = new Scanner(System.in);
-        System.out.println("Введите второй элемент массива: ");
-        int iTwo = scTwo.nextInt();
-
-        Scanner scThree = new Scanner(System.in);
-        System.out.println("Введите третий элемент массива: ");
-        int iThree = scThree.nextInt();
-
-        array[0] = iOne;
-        array[1] = iTwo;
-        array[2] = iThree;
+        for (int i = 0; i < array.length; i++) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Введите элемент массива:");
+            int element = scanner.nextInt();
+            array[i] = element;
+        }
         System.out.println(Arrays.toString(array));
 
         int sum = 0;
         for (int num: array) {
-            sum = sum + num;
+            sum += num;
         }
         System.out.println("Сумма всех чисел равна: " + sum);
 
