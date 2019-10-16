@@ -1,5 +1,6 @@
 package homework_3.task_4;
 
+// не очень красиво, но выводит
 public class MultTable {
     public static void main(String[] args) {
         int dimension = 10;
