@@ -2,6 +2,7 @@ package homework_3.task_3;
 
 import java.util.Arrays;
 
+// форматируй код
 public class Odd {
     public static void main(String[] args) {
         int[] array = new int[10];
