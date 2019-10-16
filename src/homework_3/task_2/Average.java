@@ -15,6 +15,6 @@ public class Average {
         }
         double average = (double) sum / array.length;
         System.out.println(average);
-
+// пустая строка не нужа
     }
 }
