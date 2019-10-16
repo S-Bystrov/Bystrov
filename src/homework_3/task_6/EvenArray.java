@@ -14,7 +14,7 @@ public class EvenArray {
             if (num % 2 == 0) {
                 lengthOfNewArray++;
             }
-
+// пустая строка не нужа
         }
         int[] evenArray = new int[lengthOfNewArray];
         int index = 0;
@@ -23,7 +23,7 @@ public class EvenArray {
                 evenArray[index] = num;
                 index++;
             }
-
+// пустая строка не нужа
         }
         System.out.println(Arrays.toString(evenArray));
     }
