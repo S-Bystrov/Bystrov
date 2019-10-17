@@ -56,6 +56,4 @@ public class Human {
     public void printText() {
         System.out.println(text);
     }
-
-
 }
