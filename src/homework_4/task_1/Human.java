@@ -11,7 +11,7 @@ public class Human {
         this("NoData", 0);
     }
 
-    public Human(String name, int age){
+    public Human(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -56,8 +56,6 @@ public class Human {
     public void printText() {
         System.out.println(text);
     }
-
-
 
 
 }
