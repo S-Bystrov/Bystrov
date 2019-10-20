@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Human {
     private String name;
     private int age;
-    private static String text = "Hello from static";
+    private static String text = "Hello from static"; // static поля идут раньше других
 
     public Human() {
         this("NoData", 0);
