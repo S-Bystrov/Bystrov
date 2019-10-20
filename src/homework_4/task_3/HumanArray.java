@@ -2,6 +2,7 @@ package homework_4.task_3;
 
 import homework_4.task_1.Human;
 
+// +
 public class HumanArray {
     public static void main(String[] args) {
         Human[] human = new Human[7];
