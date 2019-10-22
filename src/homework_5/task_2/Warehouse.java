@@ -21,7 +21,7 @@ public class Warehouse {
 
     }
 
-    public Wire[] gerArray() {
+    public Wire[] getArray() {
 
         Wire[] copy = Arrays.copyOf(wire, wire.length);
         return copy;
