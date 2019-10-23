@@ -12,6 +12,6 @@ public class Main {
             new Wire(4,1.5),
             new Wire(10,3.5)
     });
-    System.out.println(Arrays.toString(wareHouse.gerArray()));
+    System.out.println(Arrays.toString(wareHouse.getArray()));
   }
 }
