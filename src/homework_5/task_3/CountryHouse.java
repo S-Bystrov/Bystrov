@@ -1,15 +1,16 @@
 package homework_5.task_3;
 
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class CountryHouse implements House {
     private int numOfFloor;
     private int numOfTenants;
     private String turnOnOrOffHeating;
 
-    public CountryHouse (int numOfFloor, int numOfTenants){
+    public CountryHouse (int numOfFloor, int numOfTenants, String turnOnOrOffHeating){
         this.numOfFloor = numOfFloor;
         this.numOfTenants = numOfTenants;
+        this.turnOnOrOffHeating = turnOnOrOffHeating;
     }
 
     @Override
@@ -30,6 +31,6 @@ public class CountryHouse implements House {
     @Override
     public void show() {
         System.out.println("Number of floors: " + numOfFloor + "Number of tenants: " + numOfTenants +
-                "Heating " + turnOnOrOffHeating);
+                " " + turnOnOrOffHeating);
     }
 }
