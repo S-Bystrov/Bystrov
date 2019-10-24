@@ -3,7 +3,6 @@ package homework_5.task_3;
 public class CityHighRiseBuilding extends HouseAbs {
 
     public CityHighRiseBuilding() {
-        super();
     }
 
     public CityHighRiseBuilding(int numOfFloor, int numOfTenants, String turnOnOrOffHeating) {

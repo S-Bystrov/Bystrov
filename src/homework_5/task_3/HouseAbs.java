@@ -7,14 +7,13 @@ public abstract class HouseAbs implements House {
     private String turnOnOrOffHeating;
     String type;
 
+    HouseAbs() {
+    }
 
     HouseAbs(int numOfFloor, int numOfTenants, String turnOnOrOffHeating) {
         this.numOfFloor = numOfFloor;
         this.numOfTenants = numOfTenants;
         this.turnOnOrOffHeating = turnOnOrOffHeating;
-    }
-
-    HouseAbs() {
     }
 
     public int getNumOfFloor() {
