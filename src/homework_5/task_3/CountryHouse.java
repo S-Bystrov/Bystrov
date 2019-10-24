@@ -1,6 +1,6 @@
 package homework_5.task_3;
 
-
+// +
 public class CountryHouse extends HouseAbs {
 
     public CountryHouse() {
