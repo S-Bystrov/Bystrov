@@ -3,6 +3,7 @@ package homework_5.task_2;
 import java.util.Arrays;
 
 public class Warehouse {
+    // не делай это поле статик, на занятии след-ем я расскажу почему
     static int iter = 0;
     private final Wire[] wire;
 
