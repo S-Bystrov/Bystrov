@@ -1,5 +1,6 @@
 package homework_5.task_1;
 
+// Task1 -> Laptop, например
 public class Task1 implements Computer {
     @Override
     public void turnOn() {
