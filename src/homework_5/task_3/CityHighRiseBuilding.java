@@ -5,7 +5,7 @@ public class CityHighRiseBuilding implements House {
     private int numOfTenants;
     private String turnOnOrOffHeating;
 
-    public CityHighRiseBuilding(int numOfFloor, int numOfTenants, String turnOnOrOffHeating){
+    public CityHighRiseBuilding(int numOfFloor, int numOfTenants, String turnOnOrOffHeating) {
         this.numOfFloor = numOfFloor;
         this.numOfTenants = numOfTenants;
         this.turnOnOrOffHeating = turnOnOrOffHeating;

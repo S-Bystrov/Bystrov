@@ -18,11 +18,9 @@ public class Warehouse {
             iter = 0;
             return wire[iter];
         }
-
     }
 
     public Wire[] getArray() {
-
         Wire[] copy = Arrays.copyOf(wire, wire.length);
         return copy;
     }
