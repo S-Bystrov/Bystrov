@@ -49,6 +49,7 @@ public abstract class HouseAbs implements House {
         this.type = type;
     }
 
+    // мы уже познакомились с методом toString() используй его для вывода на экран
     @Override
     public void show() {
         System.out.println(type + ". Number of floors: " + numOfFloor + ". Number of tenants: " + numOfTenants +
