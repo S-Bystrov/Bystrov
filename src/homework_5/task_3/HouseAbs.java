@@ -2,19 +2,19 @@ package homework_5.task_3;
 
 public abstract class HouseAbs implements House {
 
-    protected int numOfFloor;
-    protected int numOfTenants;
-    protected String turnOnOrOffHeating;
-    protected String type;
+    private int numOfFloor;
+    private int numOfTenants;
+    private String turnOnOrOffHeating;
+    String type;
 
 
-    public HouseAbs(int numOfFloor, int numOfTenants, String turnOnOrOffHeating) {
+    HouseAbs(int numOfFloor, int numOfTenants, String turnOnOrOffHeating) {
         this.numOfFloor = numOfFloor;
         this.numOfTenants = numOfTenants;
         this.turnOnOrOffHeating = turnOnOrOffHeating;
     }
 
-    public HouseAbs() {
+    HouseAbs() {
     }
 
     public int getNumOfFloor() {
