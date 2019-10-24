@@ -1,6 +1,5 @@
 package homework_5.task_3;
 
-import java.util.Scanner;
 
 public class CountryHouse implements House {
     private int numOfFloor;
