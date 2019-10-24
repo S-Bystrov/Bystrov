@@ -1,6 +1,7 @@
 package homework_6.task_2;
 
 public class Transmission {
+
     private int gear;
 
     public int increaseGear() {
@@ -19,5 +20,13 @@ public class Transmission {
             System.out.println("It is impossible to decrease the gear");
         }
         return gear;
+    }
+
+    public int getGear() {
+        return gear;
+    }
+
+    public void setGear(int gear) {
+        this.gear = gear;
     }
 }

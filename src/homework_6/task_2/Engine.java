@@ -1,6 +1,7 @@
 package homework_6.task_2;
 
 public class Engine {
+
     private boolean working;
 
     public void start() {
@@ -18,6 +19,10 @@ public class Engine {
         } else {
             System.out.println("The engine is already stopped");
         }
+    }
+
+    public boolean isWorking() {
+        return working;
     }
 
 }
