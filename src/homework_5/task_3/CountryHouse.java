@@ -30,7 +30,7 @@ public class CountryHouse implements House {
 
     @Override
     public void show() {
-        System.out.println("Number of floors: " + numOfFloor + " Number of tenants: " + numOfTenants +
+        System.out.println("Country house. Number of floors: " + numOfFloor + " Number of tenants: " + numOfTenants +
                 " " + turnOnOrOffHeating);
     }
 }

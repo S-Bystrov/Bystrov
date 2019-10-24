@@ -10,5 +10,4 @@ public class HouseCatalog {
         houseCatalog[0].show();
         houseCatalog[1].show();
     }
-
 }
