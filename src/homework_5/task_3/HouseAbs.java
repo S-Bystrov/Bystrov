@@ -17,7 +17,6 @@ public abstract class HouseAbs implements House {
     public HouseAbs() {
     }
 
-    @Override
     public int getNumOfFloor() {
         return numOfFloor;
     }
@@ -26,7 +25,6 @@ public abstract class HouseAbs implements House {
         this.numOfFloor = numOfFloor;
     }
 
-    @Override
     public int getNumOfTenants() {
         return numOfTenants;
     }
@@ -35,7 +33,6 @@ public abstract class HouseAbs implements House {
         this.numOfTenants = numOfTenants;
     }
 
-    @Override
     public String getTurnOnOrOffHeating() {
         return turnOnOrOffHeating;
     }
