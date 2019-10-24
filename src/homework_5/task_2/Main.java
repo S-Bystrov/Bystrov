@@ -2,8 +2,9 @@ package homework_5.task_2;
 
 import java.util.Arrays;
 
+// +
 public class Main {
-
+// пустая строка не нужна
     public static void main(String[] args) {
 
         Warehouse wareHouse = new Warehouse(new Wire[]{
