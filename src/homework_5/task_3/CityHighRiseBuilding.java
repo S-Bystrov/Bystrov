@@ -28,7 +28,7 @@ public class CityHighRiseBuilding implements House {
 
     @Override
     public void show() {
-        System.out.println("Number of floors: " + numOfFloor + "Number of tenants: " + numOfTenants +
-                "Heating " + turnOnOrOffHeating);
+        System.out.println("Number of floors: " + numOfFloor + " Number of tenants: " + numOfTenants +
+                " " + turnOnOrOffHeating);
     }
 }
