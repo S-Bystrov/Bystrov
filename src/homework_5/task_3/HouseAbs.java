@@ -5,6 +5,7 @@ public abstract class HouseAbs implements House {
     private int numOfFloor;
     private int numOfTenants;
     private String turnOnOrOffHeating;
+    // private или procted, default не оставляй
     String type;
 
     HouseAbs() {
