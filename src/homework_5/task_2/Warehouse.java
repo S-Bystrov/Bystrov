@@ -3,7 +3,7 @@ package homework_5.task_2;
 import java.util.Arrays;
 
 public class Warehouse {
-    static int iter = -1;
+    static int iter = 0;
     private final Wire[] wire;
 
     public Warehouse(Wire[] wire) {
@@ -11,13 +11,12 @@ public class Warehouse {
     }
 
     public Wire next() {
-        iter++;
-        if (wire.length > 0 & iter < wire.length) {
-            return wire[iter];
-        } else {
+
+        if (iter >= wire.length) {
             iter = 0;
-            return wire[iter];
         }
+
+        return wire[iter++];
     }
 
     public Wire[] getArray() {

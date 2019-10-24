@@ -13,5 +13,9 @@ public class Main {
                 new Wire(10, 3.5)
         });
         System.out.println(Arrays.toString(wareHouse.getArray()));
+
+        for (int i = 0; i < 10 ; i++) {
+            System.out.println(wareHouse.next());
+        }
     }
 }
