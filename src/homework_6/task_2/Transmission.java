@@ -5,6 +5,7 @@ public class Transmission {
     private int gear;
 
     public int increaseGear() {
+        // 7 - константой в класс
         if (gear < 7) {
             gear++;
         } else {
