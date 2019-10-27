@@ -6,6 +6,7 @@ public class Car {
     private Transmission transmission;
     private boolean carMovement;
 
+    // Engine, Transmission аргументами в конструктор
     public Car() {
         engine = new Engine();
         transmission = new Transmission();
@@ -20,6 +21,7 @@ public class Car {
         }
     }
 
+    // getSpeed - 'get' метод должен что-то возврашать, а не быть void, печатать скорость можешь в методе мейн
     public void getSpeed() {
         if (carMovement) {
             System.out.println("Car speed: " + 20 * transmission.getGear());
