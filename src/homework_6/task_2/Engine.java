@@ -1,7 +1,7 @@
 package homework_6.task_2;
 
 public class Engine {
-
+// пустая строка не нужна
     private boolean working;
 
     public void start() {
@@ -10,7 +10,7 @@ public class Engine {
         } else {
             working = true;
         }
-
+// пустая строка не нужна
     }
 
     public void stop() {
