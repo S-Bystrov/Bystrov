@@ -8,49 +8,22 @@ public class Task4 {
                 "Game has been extensively tested in closed group, but it is always important to hear fresh suggestions\n" +
                 "from larger crowd that come from various gaming backgrounds.\n" +
                 "Plan is to make the game as good as possible but without compromising the core idea.";
-        String intermediateText = text.replace(".", " ");
-        String textToCheck = intermediateText.replace(","," ");
-        String[] textToCheckArray = textToCheck.split(" ");
-        int count = 0;
-        for (int i = 0; i < textToCheckArray.length; i++) {
-            if(textToCheckArray[i].equalsIgnoreCase("alert")){
-                count++;
-            }
-        }
-        System.out.println("The word 'alert' occurs in the text " + count + " times");
-        count = 0;
-        for (int i = 0; i < textToCheckArray.length; i++) {
-            if(textToCheckArray[i].equalsIgnoreCase("add")){
-                count++;
-            }
-        }
-        System.out.println("The word 'add' occurs in the text " + count + " times");
-        count = 0;
-        for (int i = 0; i < textToCheckArray.length; i++) {
-            if(textToCheckArray[i].equalsIgnoreCase("good")){
-                count++;
-            }
-        }
-        System.out.println("The word 'good' occurs in the text " + count + " times");
-        count = 0;
-        for (int i = 0; i < textToCheckArray.length; i++) {
-            if(textToCheckArray[i].equalsIgnoreCase("plan")){
-                count++;
-            }
-        }
-        System.out.println("The word 'plan' occurs in the text " + count + " times");
+        wordSearch(text, "alert");
+        wordSearch(text, "add");
+        wordSearch(text, "good");
+        wordSearch(text, "plan");
     }
-}
 
-/*public static void wordSearch(String sourceText, String searchWord) {
+    public static void wordSearch(String sourceText, String searchWord) {
         int count = 0;
         String intermediateText = sourceText.replace(".", " ");
-        String textToCheck = intermediateText.replace(","," ");
+        String textToCheck = intermediateText.replace(",", " ");
         String[] textToCheckArray = textToCheck.split(" ");
         for (int i = 0; i < textToCheckArray.length; i++) {
-            if(textToCheckArray[i].equalsIgnoreCase(searchWord){
+            if (textToCheckArray[i].equalsIgnoreCase(searchWord)) {
                 count++;
             }
         }
         System.out.println("The word " + searchWord + " occurs in the text " + count + " times");
-    }*/
+    }
+}
