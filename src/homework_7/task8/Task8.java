@@ -10,10 +10,10 @@ public class Task8 {
         String replacement = "2.0";
         String adding = "T";
         for (int i = 0; i < carsType.length; i++) {
-            if (carsType[i] == firstTypeForChange) {
+            if (carsType[i] == firstTypeForChange) { // carsType[i].equals(firstTypeForChange) и только так
                 carsType[i] = carsType[i].replace(firstTypeForChange, replacement);
             }
-            if (carsType[i] == secondTypeForChange) {
+            if (carsType[i] == secondTypeForChange) { // carsType[i].equals(firstTypeForChange) и только так
                 carsType[i] = carsType[i].concat(adding);
             }
         }
