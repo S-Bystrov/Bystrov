@@ -11,7 +11,6 @@ public class Task1 {
     public static void main(String[] args) throws IOException {
         File arrayFile = new File(DIRECTORY, "Array.txt");
         String arrayFilePath = arrayFile.getAbsolutePath();
-        System.out.println(arrayFilePath);
         try (FileOutputStream fos = new FileOutputStream(arrayFilePath);
              ObjectOutputStream dos = new ObjectOutputStream(fos)) {
             int size = 10;
