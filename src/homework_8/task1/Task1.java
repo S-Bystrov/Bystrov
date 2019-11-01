@@ -2,6 +2,7 @@ package homework_8.task1;
 
 import java.util.Scanner;
 
+// форматируй код
 public class Task1 {
     public static void main(String[] args) {
        try{
@@ -14,6 +15,6 @@ public class Task1 {
        } catch (ArithmeticException e) {
            System.out.println("Division by zero is not allowed");
        }
-
+// пустая строка не нужна
     }
 }
