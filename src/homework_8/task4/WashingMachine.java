@@ -2,7 +2,7 @@ package homework_8.task4;
 
 public class WashingMachine {
     public void working() {
-        boolean electricity = (int) (Math.random() * 2) % 2 == 0;
+        boolean electricity = (int) (Math.random() * 2) == 0;
         try {
             System.out.println("Washing machine works");
             if (electricity) {
