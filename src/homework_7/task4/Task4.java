@@ -14,10 +14,12 @@ public class Task4 {
         wordSearch(text, "plan");
     }
 
+    // void -> int и пускай возвращает кол-во повторений. выводишь на экран уже в main()
     public static void wordSearch(String sourceText, String searchWord) {
         int count = 0;
         String intermediateText = sourceText.replace(".", " ");
         String textToCheck = intermediateText.replace(",", " ");
+        // эту задачу можно решить через indexOf() тогда не нужно создавать массив + ты дважды делаешь replace, пока не оптимально 
         String[] textToCheckArray = textToCheck.split(" ");
         for (int i = 0; i < textToCheckArray.length; i++) {
             if (textToCheckArray[i].equalsIgnoreCase(searchWord)) {
