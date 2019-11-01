@@ -9,9 +9,9 @@ public class WashingMachine {
                 System.out.println("Washing is over");
             } else {
                 throw new ElectricityException("There was a crash! The power went out. Turns on the water drain");
-            }  // не понимаю, почему не отрабатывает ошибка, если electricity false
+            }
         } catch (ElectricityException e) {
-            e.getMessage();
+            System.out.println(e.getMessage());
         } finally {
             drainwater();
         }
