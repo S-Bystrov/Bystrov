@@ -1,5 +1,6 @@
 package homework_8.task4;
 
+// +
 public class WashingMachine {
     public void working() {
         boolean electricity = (int) (Math.random() * 2) == 0;
