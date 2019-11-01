@@ -11,7 +11,9 @@ public class Task3 {
             System.out.println("Enter the length of array (no more then " + maxLength + ")");
             length = scanner.nextInt();
             int[] newArray = new int[length];
+            // есть переменная maxLength, как раз для этого if() 
             if (length > 9 || length < 0) {
+                // MyException думаю стоило дать более говорящее название
                 throw new MyException("The number entered is greater than the allowed limit. Enter a new number");
             }
         } catch (MyException e) {
