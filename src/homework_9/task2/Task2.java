@@ -11,7 +11,7 @@ public class Task2 {
         File textFile = new File(DIRECTORY, "Text.txt");
         String textFilePath = textFile.getAbsolutePath();
         try (FileWriter fr = new FileWriter(textFilePath)) {
-            String text = "Hello from Java";
+            String text = "Hello from Java. ";
             int count = 0;
             int max = 10000;
             while (count != max) {
@@ -20,6 +20,5 @@ public class Task2 {
                 count++;
             }
         }
-
     }
 }
