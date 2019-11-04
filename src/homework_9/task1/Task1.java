@@ -9,7 +9,7 @@ public class Task1 {
     private static final String DIRECTORY = "src/homework_9/task1";
 
     public static void main(String[] args) throws IOException {
-        File arrayFile = new File(DIRECTORY, "Array.txt");
+        File arrayFile = new File(DIRECTORY, "Array");
         String arrayFilePath = arrayFile.getAbsolutePath();
         try (FileOutputStream fos = new FileOutputStream(arrayFilePath);
              ObjectOutputStream dos = new ObjectOutputStream(fos)) {
