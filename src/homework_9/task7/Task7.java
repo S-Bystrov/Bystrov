@@ -7,10 +7,16 @@ public class Task7 {
 
     public static void main(String[] args) {
         File directory = new File(FILE_REFERENCE);
+        dir(directory);
+    }
+
+
+    public static void dir(File directory) {
         if (directory.isDirectory()) {
             for (File item : directory.listFiles()) {
                 if (item.isDirectory()) {
                     System.out.println(item.getName() + " = folder");
+                    dir(item);
                 } else {
                     System.out.println(item.getName() + " = file");
                 }
