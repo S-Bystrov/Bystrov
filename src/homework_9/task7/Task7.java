@@ -15,10 +15,12 @@ public class Task7 {
         if (directory.isDirectory()) {
             for (File item : directory.listFiles()) {
                 if (item.isDirectory()) {
-                    System.out.println(item.getName() + " = folder");
+                    char triangle = 0x25BA;
+                    System.out.println(triangle + item.getName());
                     dir(item);
                 } else {
-                    System.out.println(item.getName() + " = file");
+                    char symbol = 0x251C;
+                    System.out.println("\t" + symbol + item.getName());
                 }
             }
         }
