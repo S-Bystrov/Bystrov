@@ -10,7 +10,7 @@ public class Task7 {
         dir(directory);
     }
 
-
+// пустая строка не нужна
     public static void dir(File directory) {
         if (directory.isDirectory()) {
             for (File item : directory.listFiles()) {
@@ -19,7 +19,7 @@ public class Task7 {
                     System.out.println(triangle + item.getName());
                     dir(item);
                 } else {
-                    char symbol = 0x251C;
+                    char symbol = 0x251C; // это в константу
                     System.out.println("\t" + symbol + item.getName());
                 }
             }
