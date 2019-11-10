@@ -2,6 +2,7 @@ package homework_9.task5;
 
 import java.io.Serializable;
 
+// +
 public class Work implements Serializable {
     private String workName;
     private int minWorkExperience;
