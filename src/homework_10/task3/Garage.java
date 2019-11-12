@@ -11,6 +11,5 @@ public class Garage<C extends Car> {
         Garage<BMW> garageBMW = new Garage<>(new BMW[]{new BMW()});
         Garage<Lada> garageLada = new Garage<>(new Lada[]{new Lada()});
         Garage<Car> garageCars = new Garage<>(new Car[]{new Lada(), new BMW()});
-
     }
 }

@@ -7,7 +7,6 @@ public abstract class Car {
     private String color;
 
     Car() {
-
     }
 
     Car(String type, double engineVolume, int maxSpeed, String color) {
