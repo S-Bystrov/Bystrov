@@ -8,8 +8,9 @@ public class Task2 {
     private static final String DIRECTORY = "src/homework_9/task2";
 
     public static void main(String[] args) throws IOException {
-        File textFile = new File(DIRECTORY, "Text.txt");
+        File textFile = new File(DIRECTORY, "Text.txt"); // зачем создавать лишние объекты, если можно просто передать путь
         String textFilePath = textFile.getAbsolutePath();
+        //  try (FileWriter fr = new FileWriter(DIRECTORY)) {
         try (FileWriter fr = new FileWriter(textFilePath)) {
             String text = "Hello from Java. ";
             int count = 0;

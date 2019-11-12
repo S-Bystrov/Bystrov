@@ -5,13 +5,12 @@ import java.io.File;
 public class Task7 {
     private static final String FILE_REFERENCE = "src/";
     static int level = 0;
-    static String tab =
+    static String tab;
 
     public static void main(String[] args) {
         File directory = new File(FILE_REFERENCE);
         dir(directory);
     }
-
 
     public static void dir(File directory) {
         if (directory.isDirectory()) {
@@ -22,7 +21,6 @@ public class Task7 {
 
                     dir(item);
                 } else {
-
                     System.out.println(tab + (char) 0x251C + item.getName());
                 }
                 tab = tab + "\t";
