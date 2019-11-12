@@ -2,6 +2,7 @@ package homework_9.task4;
 
 import java.io.Serializable;
 
+// +
 public class Employee implements Serializable {
     private static final long serialVersionUID = -1046440578560325794L;
     private String name;
