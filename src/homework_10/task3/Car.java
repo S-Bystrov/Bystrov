@@ -1,16 +1,16 @@
 package homework_10.task3;
 
-public abstract class Cars {
+public abstract class Car {
     private String type;
     private double engineVolume;
     private int maxSpeed;
     private String color;
 
-    Cars() {
+    Car() {
 
     }
 
-    Cars(String type, double engineVolume, int maxSpeed, String color) {
+    Car(String type, double engineVolume, int maxSpeed, String color) {
         this.type = type;
         this.engineVolume = engineVolume;
         this.maxSpeed = maxSpeed;

@@ -1,6 +1,6 @@
 package homework_10.task3;
 
-public class Lada extends Cars {
+public class Lada extends Car {
     public Lada() {
     }
 
