@@ -4,6 +4,8 @@ import java.io.File;
 
 public class Task7 {
     private static final String FILE_REFERENCE = "src/";
+    static int level = 0;
+    static String tab =
 
     public static void main(String[] args) {
         File directory = new File(FILE_REFERENCE);
@@ -15,14 +17,17 @@ public class Task7 {
         if (directory.isDirectory()) {
             for (File item : directory.listFiles()) {
                 if (item.isDirectory()) {
-                    char triangle = 0x25BA;
-                    System.out.println(triangle + item.getName());
+
+                    System.out.println(tab + (char) 0x25BA + item.getName());
+
                     dir(item);
                 } else {
-                    char symbol = 0x251C;
-                    System.out.println("\t" + symbol + item.getName());
+
+                    System.out.println(tab + (char) 0x251C + item.getName());
                 }
+                tab = tab + "\t";
             }
+            tab = "";
         }
     }
 }

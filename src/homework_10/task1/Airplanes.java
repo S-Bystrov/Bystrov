@@ -35,5 +35,11 @@ public class Airplanes<T, S> {
         this.countryOfProduction = countryOfProduction;
     }
 
+    private static <E> E showElement(E elem) {
+        elem.getClass().getName();
+        return elem;
+    }
+
+
 
 }
