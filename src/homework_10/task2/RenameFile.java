@@ -11,7 +11,7 @@ public class RenameFile {
         RenameStrategy newName = RenameStrategy.TO_LOWER_CASE;
         if (newName.renameFile(file)) {
             System.out.println("Файл переименован успешно");
-            ;
+            ; // <- авторская фишечка?
         } else {
             System.out.println("Файл не был переименован");
         }
