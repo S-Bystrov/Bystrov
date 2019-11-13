@@ -1,10 +1,10 @@
 package homework_10.task3;
 
 public abstract class Car {
-    private String type;
-    private double engineVolume;
-    private int maxSpeed;
-    private String color;
+    private String type; // private -> protected
+    private double engineVolume;// private -> protected
+    private int maxSpeed;// private -> protected
+    private String color;// private -> protected
 
     Car() {
     }
