@@ -8,7 +8,7 @@ public class RenameFile {
 
     public static void main(String[] args) throws IOException {
         File file = new File(FILE_PATH);
-        RenameStrategy newName = RenameStrategy.TO_LOWER_CASE;
+        RenameStrategy newName = RenameStrategy.TO_UPPER_CASE;
         if (newName.renameFile(file)) {
             System.out.println("Файл переименован успешно");
             ;
