@@ -1,5 +1,6 @@
 package homework_10.task3;
 
+// +
 public class Garage<C extends Car> {
     private C[] cars;
 
@@ -7,6 +8,7 @@ public class Garage<C extends Car> {
         this.cars = cars;
     }
 
+    // метод main лучше делать в отдельном классе
     public static void main(String[] args) {
         Garage<BMW> garageBMW = new Garage<>(new BMW[]{new BMW()});
         Garage<Lada> garageLada = new Garage<>(new Lada[]{new Lada()});

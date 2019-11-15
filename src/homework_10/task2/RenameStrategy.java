@@ -1,7 +1,7 @@
 package homework_10.task2;
 
 import java.io.File;
-
+ // +
 public enum RenameStrategy {
     TO_LOWER_CASE() {
         @Override
