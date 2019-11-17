@@ -1,5 +1,6 @@
 package homework_11.task10;
 
+// +
 public class Fruit {
     private String name;
     private double weight;
