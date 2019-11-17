@@ -2,6 +2,7 @@ package homework_11.task1;
 
 import java.util.*;
 
+// +
 public class Checklist {
     public static void main(String[] args) {
         ArrayList<String> checklist = new ArrayList<>();
