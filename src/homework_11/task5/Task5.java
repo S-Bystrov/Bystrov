@@ -11,6 +11,8 @@ public class Task5 {
         for (int i = 0; i < CAPACITY; i++) {
             arrayList.add(i + 1);
         }
+        // нужно было удалить все элементы, а не половину
+        // удаление лучше выносить в отдельный метод
         int index = CAPACITY / 2;
         long startArrayList = System.currentTimeMillis();
         while (arrayList.size() > index) {
