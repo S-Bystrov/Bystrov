@@ -1,4 +1,4 @@
-package homework_12.task7;
+package homework_12.task6;
 
 import java.util.function.Predicate;
 
