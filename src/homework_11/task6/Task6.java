@@ -12,6 +12,8 @@ public class Task6 {
         for (int i = 0; i < CAPACITY; i++) {
             arrayList.add(i + 1);
         }
+        
+        // удаление лучше выносить в отдельный метод
         long startArrayList = System.currentTimeMillis();
         while (arrayList.size() != 0) {
             arrayList.remove(0);

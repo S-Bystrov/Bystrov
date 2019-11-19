@@ -2,6 +2,7 @@ package homework_11.task8;
 
 import java.util.Objects;
 
+// +
 public class Shop {
     private int id;
     private String name;

@@ -15,5 +15,6 @@ public class NameTreeSet {
         name.add("Ivan");
         System.out.println(name);
         System.out.println(name.subSet("H", "W"));
+        // name.subSet("H", "W") - в этот сабсет не войдут имена на W, но есть метод subSet() с 4мя аргументами
     }
 }

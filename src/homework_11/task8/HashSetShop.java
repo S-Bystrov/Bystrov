@@ -2,6 +2,7 @@ package homework_11.task8;
 
 import java.util.HashSet;
 
+// +
 public class HashSetShop {
     public static void main(String[] args) {
         HashSet<Shop> shopHashSet = new HashSet<>();

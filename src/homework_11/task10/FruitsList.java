@@ -16,6 +16,7 @@ public class FruitsList {
         Map<String, Double> warehouse = new HashMap<>();
         for (Fruit fruit : allFruits) {
             if (warehouse.containsKey(fruit.getName())) {
+                // сумму лучше вынести в переменную, так код будет читабельнее
                 warehouse.put(fruit.getName(), warehouse.get(fruit.getName()) + fruit.getWeight());
             } else {
                 warehouse.put(fruit.getName(), fruit.getWeight());
