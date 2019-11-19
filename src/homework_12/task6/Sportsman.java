@@ -2,6 +2,7 @@ package homework_12.task6;
 
 import java.util.Map;
 
+// +
 public class Sportsman {
     String name;
     double speed;
