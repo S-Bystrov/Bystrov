@@ -18,6 +18,7 @@ public class Task7 {
 
         Optional<Phone> minPrice = phones.stream()
                 .min(Comparator.comparing(Phone::getPrice));
+        // а если в коллекция будет пустой? будет исключение, когда ты вызовешь метод get(), добавь проверку
         System.out.println(minPrice.get());
     }
 }
