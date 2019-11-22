@@ -21,6 +21,7 @@ public class ProducerCollect {
     }
 
     private static boolean filterProducer(String phone) {
+       // лучше сделать коллекцию из этих слов и вызывать у этой коллекции contains
         return "Xiaomi".equals(phone) || "Apple".equals(phone) || "Samsung".equals(phone);
     }
 }
