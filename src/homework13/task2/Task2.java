@@ -16,6 +16,7 @@ public class Task2 {
 
         Optional<String> maxString = stringArray.stream()
                 .max(Comparator.comparing(String::length));
+         // а если в коллекция будет пустой? будет исключение, когда ты вызовешь метод get(), добавь проверку
         System.out.println(maxString.get());
     }
 }
