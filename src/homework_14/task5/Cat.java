@@ -2,6 +2,7 @@ package homework_14.task5;
 
 import java.io.Serializable;
 
+// +
 public class Cat implements Serializable {
     private static final long serialVersionUID = 11111L;
 
