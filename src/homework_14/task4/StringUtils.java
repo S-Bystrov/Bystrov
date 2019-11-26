@@ -24,7 +24,7 @@ public class StringUtils {
                         if (str.charAt(i) == str.charAt(str.length() - i - 1)) {
                             palindromes.add(str);
                         }
-                    }
+                    } // очень большая вложенность кода, стоит разбить на методы
                 }
             }
         }
