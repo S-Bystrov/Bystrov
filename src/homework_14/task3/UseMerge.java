@@ -42,6 +42,7 @@ public class UseMerge {
                     newHashMap.merge(key, value, (v1, v2) -> {
                         System.out.println("1" + v1);
                         System.out.println("2" + v2);
+                        // в идеале создать третий лист и туда два запихнуть
                         v1.addAll(v2);
                         return v1;
                     });
