@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Task3 {
+public class UseMerge {
     public static void main(String[] args) {
         List<Integer> list1 = new ArrayList<>();
         list1.add(23);
@@ -27,13 +27,27 @@ public class Task3 {
         hashMapTwo.put("two", list3);
         hashMapTwo.put("three", list4);
         System.out.println(hashMapTwo);
-        HashMap<String, List<Integer>> newHashMap = new HashMap<>(hashMapOne);
-        hashMapTwo.forEach(
-                (key, value) -> newHashMap.merge(key, value, (v1, v2) -> {
-                    v1.addAll(v2);
-                    return v1;
-                })
-        );
+
+        HashMap<String, List<Integer>> newHashMap = mergeMaps(hashMapOne, hashMapTwo);
         System.out.println(newHashMap);
+    }
+
+    private static HashMap<String, List<Integer>> mergeMaps(HashMap<String, List<Integer>> mapOne,
+                                                            HashMap<String, List<Integer>> mapTwo) {
+        HashMap<String, List<Integer>> newHashMap = new HashMap<>(mapOne);
+
+        mapTwo.forEach(
+                (key, value) -> {
+                    System.out.println("!!!!");
+                    newHashMap.merge(key, value, (v1, v2) -> {
+                        System.out.println("1" + v1);
+                        System.out.println("2" + v2);
+                        v1.addAll(v2);
+                        return v1;
+                    });
+
+                }
+        );
+        return newHashMap;
     }
 }
