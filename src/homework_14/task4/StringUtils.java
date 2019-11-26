@@ -18,7 +18,6 @@ public class StringUtils {
              BufferedReader bReaderText = new BufferedReader(readerText)) {
             String line;
 
-
             while ((line = bReaderText.readLine()) != null) {
                 for (String str : line.toLowerCase().split("\\p{Punct}*\\s")) {
                     for (int i = 0; i < str.length() / 2; i++) {
