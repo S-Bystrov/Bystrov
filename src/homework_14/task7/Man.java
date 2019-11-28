@@ -5,6 +5,7 @@ public class Man {
     private String surname;
     private Integer phoneNumber;
 
+    // +
     public Man(String name, Integer phoneNumber) {
         init(name, null, phoneNumber);
     }

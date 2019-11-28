@@ -22,5 +22,6 @@ public class ListCat implements Serializable {
             oos.writeObject(listCat);
             oos.flush();
         }
+        // было бы неплохо еще обратно прочитать из файла
     }
 }

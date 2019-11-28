@@ -11,8 +11,8 @@ public class Task2 {
     private static final String PATH_NEW = "src/homework_14/task2/";
 
     public static void main(String[] args) throws IOException {
-        File textNew = new File(PATH_NEW, "TextNew.txt");
-        String string = "pancakes";
+        File textNew = new File(PATH_NEW, "TextNew.txt"); // в константу
+        String string = "pancakes"; // в константу
         try (FileReader readerText = new FileReader(PATH);
              BufferedReader bReaderText = new BufferedReader(readerText)) {
             String line;
