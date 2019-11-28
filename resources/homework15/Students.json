@@ -1,0 +1,20 @@
+[
+  {
+    "surname": "Ivanov",
+    "name": "Petr",
+    "group": 113229,
+    "faculty": "PSF"
+  },
+  {
+    "surname": "Petrov",
+    "name": "Ivan",
+    "group": 113219,
+    "faculty": "PSF"
+  },
+  {
+    "surname": "Ivanov",
+    "name": "Boris",
+    "group": 103218,
+    "faculty": "FITR"
+  }
+]

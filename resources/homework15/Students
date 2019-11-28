@@ -1,0 +1,20 @@
+<students>
+    <student>
+        <name>Ivan</name>
+        <surname>Ivanov</surname>
+        <group>113229</group>
+        <faculty>PSF</faculty>
+    </student>
+    <student>
+        <name>Petr</name>
+        <surname>Petrov</surname>
+        <group>113219</group>
+        <faculty>PSF</faculty>
+    </student>
+    <student>
+        <name>Boris</name>
+        <surname>Sidorov</surname>
+        <group>103218</group>
+        <faculty>FITR</faculty>
+    </student>
+</students>
