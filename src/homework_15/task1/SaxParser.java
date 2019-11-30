@@ -19,6 +19,7 @@ public class SaxParser {
 
         SAXHandler handler = new SAXHandler();
         /*InputStream resources = ClassLoader.getSystemResourceAsStream(PATH);*/ //такая же ошибка
+        // скорее всего путь к файлу неверный
         parser.parse(new File(PATH), handler);
 
         List<Student> studList = handler.getStudList();
