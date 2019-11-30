@@ -28,6 +28,7 @@ public class DomParser {
         List<Student> students = new ArrayList<>();
         NodeList nodeList = document.getDocumentElement().getChildNodes();
 
+                // стоит все же выносить в отдельные методы куски логики
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             if (node instanceof Element) {
