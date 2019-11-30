@@ -2,6 +2,7 @@ package homework_15.task1;
 
 import java.io.Serializable;
 
+// +
 public class Student implements Serializable {
     private String surname;
     private String name;
