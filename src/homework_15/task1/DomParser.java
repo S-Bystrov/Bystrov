@@ -22,11 +22,13 @@ public class DomParser {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         /*InputStream resources = ClassLoader.getSystemResourceAsStream(PATH);*/ //Exception in thread "main" java.lang.IllegalArgumentException: InputStream cannot be null
+        // правой кнопкой по файлу - CopyRelativePath - скорее всего путь к файлу неверный
         Document document = db.parse(new File(PATH));
 
         List<Student> students = new ArrayList<>();
         NodeList nodeList = document.getDocumentElement().getChildNodes();
 
+                // стоит все же выносить в отдельные методы куски логики
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             if (node instanceof Element) {
@@ -58,6 +60,7 @@ public class DomParser {
                 students.add(student);
             }
         }
+        // students.forEach(System.out::println); твой способ не ошибка
         students.forEach(student -> System.out.println(student));
     }
 }

@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class JSONParser {
+    // из условия задачи "Каждый студент записан в отдельном .json файле", а у тебя они все в одном файле
     public static final String PATH = "resources/homework15/Students.json";
 
     public static void main(String[] args) throws IOException {

@@ -24,6 +24,7 @@ public class JSONParser {
         fileWriter(sortedStudents, NEW_PATH);
     }
 
+    // List<E> зачем? просто List<Student>
     private static <E> void fileWriter(List<E> e, String path) throws IOException {
         File listStudent = new File(path, "ListStudents");
         String listStudentPath = listStudent.getAbsolutePath();
