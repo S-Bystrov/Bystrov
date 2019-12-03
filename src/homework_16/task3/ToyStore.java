@@ -1,5 +1,6 @@
 package homework_16.task3;
 
+// +
 public class ToyStore {
     private int numberOfToys;
 
