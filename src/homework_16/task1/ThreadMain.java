@@ -4,5 +4,6 @@ public class ThreadMain {
     public static void main(String[] args) {
         MyThread myThread = new MyThread("My Thread");
         myThread.start();
+        // не стоит забывать про метод join()
     }
 }
