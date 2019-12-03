@@ -1,7 +1,7 @@
 package homework_16.task3;
 
 public class Task3 {
-    private static ToyStore toyStore;
+    private static ToyStore toyStore; // думаю лучше в локальную переменную и передавать в метод putToy()
 
     public static void main(String[] args) throws InterruptedException {
         toyStore = new ToyStore();
